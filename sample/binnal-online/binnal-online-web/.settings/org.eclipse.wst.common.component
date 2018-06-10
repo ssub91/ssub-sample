@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="online">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="binnal-framework-online.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binnal-framework-online/binnal-framework-online">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="binnal-online-app.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/binnal-online-app/binnal-online-app">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/binnal-online-web/target/classes"/>
+        <property name="context-root" value="online"/>
+    </wb-module>
+</project-modules>
