@@ -74,7 +74,7 @@
             </resource>
         </resources>
 
-		<finalName>online</finalName>
+		<finalName>ssub</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
@@ -90,7 +90,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1/manager/text</url>
-					<path>/</path>
+					<path>/ssub</path>
 					<username>admin</username>
 					<password>honeadmin</password>
 				</configuration>
