@@ -16,17 +16,11 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>bomnal.online</groupId>
-			<artifactId>bomnal-online-app</artifactId>
+			<groupId>binnal.online</groupId>
+			<artifactId>binnal-online-app</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		
-		 <dependency>
-			<groupId>bomnal.framework</groupId>
-			<artifactId>bomnal-framework-test</artifactId>
-			<version>${project.version}</version>
-			<scope>test</scope>
-		</dependency>		 
 		
 		<!-- servlet -->
 		<dependency>
